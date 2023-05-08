@@ -41,6 +41,12 @@
     isolation: isolate;
   }
 
+  /*
+  TODO: 
+      fix background placement on mobile
+      add alt text
+  */
+
   :Root {
     --primary-violet: hsl(257, 40%, 49%);
     --primary-magenta: hsl(300, 69%, 71%);
@@ -62,12 +68,42 @@
     background-color: var(--primary-violet);
     color: hsl(0, 0%, 100%);
     padding-inline: 2rem;
+    margin-top: 2rem;
+  }
+
+  .logo {
+    max-width: 50%;
+    padding-block: 3rem;
   }
 
   h2 {
     font-family: var(--headings-ff);
+    padding-top: 2rem;
   }
 
   p {
     font-family: var(--primary-ff);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  a {
+    background-color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 0.9rem 5rem;
+    cursor: pointer;
+  }
+
+  a:hover {
+    background-color: var(--primary-magenta);
+    color: hsl(0, 0%, 100%);
+  }
+
+  footer {
+    padding-block: 2rem;
+  }
+
+  nav {
+
   }
