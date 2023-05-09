@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='container'>
       <header>
-        {/* <h1 className='sr-only'>Huddle landing page</h1> */}
+        <h1 className='sr-only'>Huddle landing page</h1>
          <img className='logo' src={logo} alt=""></img>
          <img className='mockup' src={mockup} alt=""></img>
       </header>
