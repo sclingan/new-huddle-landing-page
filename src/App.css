@@ -129,10 +129,6 @@
     fill: white;
   }
 
-  .twitter {
-    padding-top: 0.2rem;
-  }
-
   .ionicon:hover {
     fill: hsl(300, 69%, 71%);
   }
