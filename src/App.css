@@ -152,33 +152,6 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
-/* 
-    .container {
-      display: grid;
-      grid-template-columns: 47% 39%;
-    }
-
-    header {
-      grid-column: 1/1;
-      grid-row: 1/2;
-    }
-
-    main {
-      grid-column: 2/3;
-      grid-row: 1/2;
-      margin-top: 12rem;
-      margin-left: 4rem;
-      text-align: left;
-    }
-
-    h2 {
-      font-size: 2.5rem;
-    }
-
-    footer {
-      grid-column: 2/3;
-      grid-row: 2/2;
-    } */
 
     .container {
       display: flex;
@@ -186,8 +159,6 @@
       align-items: center;
       justify-content: space-around;
     }
-
-   
 
     main {
       max-width: 30rem;
@@ -199,7 +170,5 @@
       justify-content: flex-end;
       margin-top: 15rem;
     }
-
-  
   
   }
