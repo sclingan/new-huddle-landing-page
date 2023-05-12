@@ -43,7 +43,6 @@
 
   /*
   TODO: 
-      fix background placement on mobile
       add alt text
       fix icons
   */
@@ -112,10 +111,6 @@
     transform: scale(1.2);
   }
 
-  footer {
-    padding-block: 2rem;
-  }
-
   nav {
     display: flex;
     flex-direction: row;
@@ -131,6 +126,7 @@
 
   .ionicon:hover {
     fill: hsl(300, 69%, 71%);
+    color: var(--primary-magenta);
   }
 
   .sr-only:not(:focus):not(:active) {
@@ -158,14 +154,25 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-around;
+      gap: 2rem;
+    }
+
+    header {
+      max-width: 43.75rem;
     }
 
     main {
-      max-width: 30rem;
-      margin-top: 15rem;
+      max-width: 32.5rem;
+      text-align: left;
+      margin-top: 17rem;
+      flex-shrink: 2;
     }
 
-    .nav-container {
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    nav {
       display: flex;
       justify-content: flex-end;
       margin-top: 15rem;
