@@ -41,12 +41,6 @@
     isolation: isolate;
   }
 
-  /*
-  TODO: 
-      add alt text
-      fix icons
-  */
-
   :Root {
     --primary-violet: hsl(257, 40%, 49%);
     --primary-magenta: hsl(300, 69%, 71%);
