@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/frontend-mentor-huddle-landing-page-challenge-f6O1K80ejo)
+- Live Site URL: (https://sclingan.github.io/new-huddle-landing-page/)
 
 ## My process
 
@@ -50,12 +50,13 @@ Users should be able to:
 
 ### What I learned
 
-
+I learned about making links accessible and a new way to style a nav component.
 
 
 ### Continued development
 
-
+I would like to build out the backend on this project and add a new register page as well
+as a database to store data about users.
 
 ### Useful resources
 
@@ -70,4 +71,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-
+Thanks to Frontend Mentor for a great challenge.
